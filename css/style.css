@@ -1,0 +1,1113 @@
+
+/* 王棋锋 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+  
+}
+/* 这是头部 */
+#wangheader{
+    width: 100%;
+    height:100px;
+    background: linear-gradient(to right ,#006d33,#1b8837,#38a43b,#38a43b,#006d33,#006d33);
+}
+#wangheader .header-main{
+    width: 1200px;  /* 1200*/
+    height: 0;
+    margin: 0 auto;
+}
+.news-bottom {
+    width: 100%;
+    height: 100px;}
+/* 头部中间一栏 */
+.news-bottom-item {
+    width: 400px;
+    height: 100%;
+    float: left;
+    margin-right: 0px;
+}
+/* 浙师大logo */
+.news-bottom-item img {
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+    margin-top: 15px; 
+}
+/* 头部最右边一栏，分为上下两块 */
+.shangmian{
+    width: 1200px;
+    height: 50%;
+    /* background: #006d33; */
+}
+.xiamian{
+    width: 100%;
+    height: 50%;
+    /* background: #006d33; */
+}
+/* 头部最右边一栏，分为上下两块 */
+.xuesheng li{
+        list-style: none;
+        float: left;
+        height: 27px;
+        line-height: 100px;
+        font-size: 17px;
+        color: #dde6d8;
+        padding: 0 10px;
+        cursor: pointer;
+        /* border-bottom: 3px solid #dde6d8; */
+        box-sizing: border-box;
+}
+.shang li{
+    list-style: none;
+    float: left;
+    height: 27px;
+    line-height: 50px;
+    font-size: 15px;
+    color: #dde6d8;
+    padding: 0 5px;
+    margin: 0px;
+    cursor: pointer;
+    /* border-bottom: 3px solid #dde6d8; */
+    box-sizing: border-box;   
+}
+/* .xia li{
+    list-style: none;
+    float: left;
+    height: 27px;
+    line-height: 50px;
+    font-size: 20px;
+    color: #dde6d8;
+    padding: 0 10px;
+    margin: 0px;
+    cursor: pointer;
+    border-bottom: 3px solid #dde6d8;
+    box-sizing: border-box;   
+} */
+.xia {
+    width: 160px;
+    height: 20px;
+    margin: 0 100px;
+    /* border: 1px solid #dde6d8; */
+}
+/* 放大镜那块文本 */
+.xia input{
+    width: 142px;
+    height: 20px;
+    float: left;
+    border: none;
+    outline: none;
+    background: #dde6d8;
+}
+/* 放大镜 */
+.box1 {
+    width: 18px;
+    height: 20px;
+    float: right;
+    background: #dde6d8 ;
+}
+/* 这是概览 */
+#wangprofile{
+    width: 100%;
+    height: 86px;
+    background: #dde6d8 ;
+}
+#wangprofile .nav-main{
+    width: 1200px;
+    height: 100%;
+    background: #dde6d8 ;
+    margin:0 auto;
+    position: relative;
+}
+/* 导航开始 */
+.nav-main .li1 {
+    list-style: none;
+    /* position: relative; */
+    z-index:999;
+    height: 82px;
+    line-height: 82px;
+    font-size: 20px;
+    color: #515551;
+    padding: 0 45px;
+    cursor: pointer;
+    border-bottom: 3px solid #dde6d8;
+    box-sizing: border-box;
+}
+.li1{
+    float: left;
+}
+
+
+.nav-main .li1:hover {
+    /* background: #254baa; */
+    border-bottom: 3px solid #006d33;
+}
+/* 下拉 */
+.xiala .li2{
+    list-style: none;
+    height: 30px;
+    float: left;
+    line-height: 82px;
+    font-size: 15px;
+    color: #515551;
+    width: 180px;
+    cursor: pointer;
+    box-sizing: border-box;
+
+}
+.nav-main .li2:hover {
+    color: #38a43b;
+}
+/* 人才培养 */
+.xiala {
+    position: absolute;
+    width: 1300px;
+    height: 0px;
+    background: white;
+    left: -50px;
+    top: 82px;
+    overflow: hidden;
+    transition: all 0.5s;
+    opacity: 0.85;
+    z-index: 99;
+    /* display: none;  */
+    /* 隐藏 */    
+}
+/* 左右两块，左边图片 右边文字 */
+.left1{
+    width: 250px;
+    height: 130px;
+    background: red;
+    float: left;
+    margin: 20px 130px 15px;
+}
+
+.right1{
+    width: 550px;
+    height: 100%;
+    float: left;
+    margin-left: 150px ;
+    background:rgba(255, 255, 255, 0.6);
+}
+/* 左右两块，左边图片 右边文字 */
+.nav-main .li1:hover .xiala {
+    /* display: block; */
+    height: 170px;
+}
+/* 导航里图片大小 */
+.left1 img{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    /* margin-top: 15px;  */
+
+}
+
+/* 分割线     庞凌锋*/
+.pang_Picture{ 
+    width: 1300px;
+    height:444px;
+    margin:0 auto;
+    position: relative;
+    overflow: hidden;
+
+}
+.pang_Picture :hover{
+    cursor: pointer;
+}
+
+.slide {
+    width: 6500px;
+    height: 444px;
+    transition: all 5s;
+ 
+    /* transform: translateX(-1300px); */
+}
+
+.slide .slidep{
+    width: 1300px;
+    height: 444px;
+    list-style: none;
+    float: left;
+}
+.pang_Picture .left{
+    width:0;
+    height:0;
+    border-top:7px solid transparent;
+    border-bottom:7px solid transparent;
+    border-right:7px solid grey;
+    position: absolute;
+    bottom: 4px;
+    left: 580px;
+}
+
+.pang_Picture .right{
+    width:0;
+    height:0;
+    border-top:7px solid transparent;
+    border-bottom:7px solid transparent;
+    border-left:7px solid grey;
+    position: absolute;
+    bottom: 4px;
+    right: 580px;
+}
+
+.dot{
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    
+   
+}
+.dot .li{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background: gray;
+    list-style: none;
+    float: left;
+    margin: 0 6px;
+    cursor: pointer;
+    
+}
+
+.dot .active{
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    background: white;
+    list-style: none;
+    float: left;
+    margin: 0 6px;
+    cursor: pointer;
+    
+} 
+
+/* 滑动图片框              */
+
+/*  新闻栏目  */
+ .pangznu_news {
+    width: 1300px;
+    height: 570px;
+    
+    margin:0 auto;
+    overflow: hidden;   
+}
+.pangznu_news .upbox{
+    width: 1200px;
+    height:70px;
+    background:white;
+    border-bottom-width: 5px;
+    border-color: #006d33;
+    border-bottom-style: solid;
+    margin-bottom: 30px;
+    margin:0 auto;
+    position: relative;
+    margin-bottom:30px;
+    
+}
+.pangznu_news .upbox .title{
+    color: #006d33;
+    font-size :24px;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    
+    
+}
+.pangznu_news .upbox .jiantou{
+    color: #006d33;
+    font-size :24px;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    
+    
+}
+
+
+.pangznu_news .midbox{
+    width: 1300px;
+    height:482px;
+    background:white;
+    position: relative;
+    
+}
+.pangznu_news .midbox .leftPic{
+    width: 600px;
+    height:432px;
+    
+    position: absolute;
+    left:50px;
+    top:0;
+    margin-right: 20px;
+}
+
+.pangznu_news .midbox .leftPic .uppic{
+    width: 650px;
+    height:382px;
+   
+}
+
+.pangznu_news .midbox .leftPic .downwords{
+    width: 600px;
+    height:50px;
+    background: rgba(227, 228, 229, 0.7);
+    margin-top: 5px; 
+    margin-right: 5px;
+    position: relative;
+}
+.pangznu_news .midbox .leftPic .downwords .wordsnews{
+    font-size:16px;
+    color:rgb(0, 66, 154);
+    position: absolute;
+    right:100px;
+    top:16px;
+}
+.pangznu_news .midbox .rightnews{
+    width: 550px;
+    height:432px;
+
+    position: absolute;
+    left:620px;
+    top:0;
+ 
+}
+.pangznu_news .midbox .rightnews .rnews{
+    width: 630px;
+    height:76px;
+    /* background: #006d33; */
+    margin-bottom: 10px;
+    position: relative;
+ 
+}
+
+.pangznu_news .midbox .rightnews .rnews .res{
+    width: 76px;
+    height:76px;
+    background: rgb(127,182,150);
+    margin-right:20px;
+    position: absolute;
+    left:40px;
+    /* position: absolute; */
+}
+
+.pangznu_news .midbox .rightnews .rnews .res .day{
+    font-size: 28px;
+    color:white;
+    position: absolute;
+    left:20px;
+    top: 5px;;
+    
+}
+.pangznu_news .midbox .rightnews .rnews .res .data{
+    font-size: 12px;
+    color:white;
+    position: absolute;
+    left:14px;
+    bottom: 10px;;
+}
+.text1{
+    position: absolute;
+    color:rgb(0,109,51);
+    font-size: 19px;
+    left:120px;
+    top:4px;
+    
+}
+.text2{
+    position: absolute;
+    color:rgb(161,161,161);
+    font-size: 14px;
+    left:120px;
+    top:36px;
+    
+}
+/* *******************庞凌锋 结束************************** */
+/* ******************** 蔡起銮开始*************************** */
+#academic{
+    width: 1300px;
+height: 382px;
+background: #f0f0f0;
+margin: 0 auto;
+overflow: hidden;
+}
+.academic-top{
+    width: 1300px;
+    height: 80px;
+    /* background: yellow; */
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.academic-top-name{
+    font-size: 25px;
+    color: #006d33;
+    position: absolute;
+    top:20px;
+    float: left;
+}
+.academic-top-span{
+    font-size: 24px;
+    color: green;
+    position: relative;
+    left: 1260px;
+    top:20px;
+    float: left;
+    
+}
+.academic-bottom{
+    width: 1300px;
+    height: 500px;
+    /* background: green; */
+    margin: 0 auto;
+    position: relative;
+}
+.academic-bottom-item1{
+ width: 520px;
+ height: 100px;   
+ /* background: red; */
+ position: absolute;
+ top:0px;
+ left: 0px;
+
+}
+.academic-bottom-item2{
+    width: 520px;
+    height: 100px;   
+    position: absolute;
+    top:0px;
+    left:450px;
+   }
+ .academic-bottom-item3{
+    width: 520px;
+    height: 100px;   
+    position: absolute;
+    top:0px;
+    left:900px; 
+   }
+  .academic-bottom-item4{
+    width: 520px;
+    height: 100px;   
+    position: absolute;
+    top:130px;
+    left:0px;
+   }
+    .academic-bottom-item5{
+    width: 520px;
+    height: 100px;   
+    position: absolute;
+    top:130px;
+    left:450px;
+   }
+   .academic-bottom-item6{
+    width: 520px;
+    height: 100px;   
+
+    position: absolute;
+    top:130px;
+    left:900px;
+   }
+.academic-bottom-item-content{
+    font-size: 18px;
+    font-weight: 600;
+    color:black;
+    position: relative;
+    left:10px;
+    top:0px;
+}
+.academic-bottom-item-content2{
+    font-size: 16px;
+    color:black;
+    position: relative;
+    left:10px;
+    top:10px;
+}
+.academic-bottom-item-day{
+    width: 80px;
+    height: 80px;
+    background: #ccc5c5;
+    float: left;
+}
+.academic-bottom-item-day-num{
+    font-size: 28px;
+    color: #5b5b5b;
+    position: relative;
+    top:15px;
+    left:22px;   
+}
+.academic-bottom-item-day-ym{
+    font-size: 16px;
+    color: #a1a1a1;
+    position: relative;
+    top:20px;
+    left:10px;  
+}
+#inform{
+width: 1300px;
+height: 450px;
+/* background: blue; */
+margin: 0 auto;
+position: relative;
+}
+.inform-blank{
+ width: 802px;
+ height: 30px;
+ /* background: blue; */
+border-top: 2px dashed #cccccc;
+/* margin: 0 auto; */
+margin-top: 34px;
+ }
+
+
+ .inform-top{
+    width: 1300px;
+    height: 450px;
+    top:0px;
+    overflow: hidden;
+}
+.inform-top .top-line{
+    width:650px;
+    height: 6px;
+    background: rgb(215,215,215);
+    position: relative;
+    top: 100px;
+}
+
+    .inform-top-nam{
+        font-size: 33px;
+        color: #006d33;
+        margin-top: 40px;
+        float: left;
+        position: relative;}
+      
+
+    .inform-top-span{
+        font-size: 24px;
+        color: green;
+        margin-top: 40px;
+        position: absolute;
+        left:600px;}
+
+    .inform-bottom-item1{
+        width: 650px;
+        height: 100px;   
+        top:100px;
+        margin-top: 10px red;
+        background: white;    
+        position: absolute;
+        }
+       
+
+        .tongzhibox1{
+            width: 100px;
+            height: 100px;   
+            background:green; /*green*/
+            position: relative;
+            border-width: 5px;
+            top:-4px;
+            left:-4px;
+
+        }
+            
+            .tongzhibox1 .time1{
+                width:100px;
+                height: 50px;
+                position: absolute;
+                top:50px;
+                background: white;
+            }
+            .tongzhibox1  .inform-bottom-item1-day{
+            font-size: 16px;
+            color: white;
+            position: relative;
+            top: 10px;
+            font-size: 18px;
+            left: 12px;}
+            .tongzhibox1 .inform-bottom-item-num-16{
+                position: absolute;
+                top:60px;
+                left: 35px;
+                z-index: 99;
+                font-size: 22px;
+                color:green;}
+            .tongzhibox1 .rectangle{
+                    width:100px;
+                    height: 50px;
+                    background: white;
+                    border-width: 10px;
+                    position: absolute;
+                    border:1px solid black;
+                    top:50px;
+                    left:0px;
+                }
+            .inform-bottom-item1 .time1{
+                width:550px;
+                height:100px;
+                background: rgb(230,230,230);
+                position: absolute;
+                left:100px;
+                top:0px;
+        }
+
+            .time1 .inform-bottom-content{
+                width:550px;
+                height:50px;
+                position: absolute;
+                top: 5px;
+                font-size:18px;
+                font-weight:600;
+                color: #073312;
+                left: 10px;
+                float: left;}
+            .time1 .inform-bottom-content2{
+                text-indent:30px;
+                width:550px;
+                height:50px;
+                position: absolute;
+                top: 40px;
+                font-size:18px;
+                font-weight:400;
+                left: 10px;
+                float: left;}
+    
+
+        .inform-bottom-item2 .tongzhibox2{
+            width: 100px;
+            height: 100px;   
+            background:green;    
+            position: absolute;
+            top:300px;
+        }
+        .tongzhibox2 .inform-bottom-item2-day{
+            font-size: 16px;
+            color: white;
+            position: relative;
+            top: 15px;
+            font-size: 18px;
+            left: 12px;}
+        .tongzhibox2  .inform-bottom-item2-num-16{
+            position: absolute;
+            left: 35px;
+            top:60px;
+            z-index: 99;
+            font-size: 22px;
+            color:green;}
+        .tongzhibox2 .rectangle2{
+            width:100px;
+            height: 50px;
+            background: white;
+            border:1px solid black;
+            position: absolute;
+            top:50px;
+            left:0px;
+        }
+        .inform-bottom-item2 .time2{
+            width:550px;
+            height:100px;
+            background: rgb(230,230,230);
+            position: absolute;
+            left:100px;
+            top:300px;}
+
+
+        .time2 .inform-bottom2-content{
+                width:550px;
+                height:100px;
+                position: absolute;
+                top: 5px;
+                font-size:18px;
+                font-weight:600;
+                color:#073312;
+                left: 10px;
+                float: left;}
+        .time2   .inform-bottom2-content2{
+                text-indent:30px;
+                width:550px;
+                height:100px;
+                position: absolute;
+                top: 40px;
+                font-size:18px;
+                font-weight:400;
+                left: 10px;
+                float: left;}
+
+       /* 文字框 时间框结束 */
+    .inform-top  .rectangle3{
+        width: 650px;
+        height: 355px;
+        top:0px;
+        left:550px;
+        background: white;
+        position: relative;
+        float: left;
+     }
+            
+       .img1{
+                height: 355px;
+                width: 236px;
+                position: absolute;
+                top:0px;
+                left:5px;
+                background: url(../images/img1.jpg);
+                background-size: 100%;
+                float: left; 
+                } 
+        .img2{
+                height: 170px;
+                width: 380px;
+                position: relative;
+                left:240px;
+                top:0;
+                background: url(../images/img2.jpg);
+                background-size: 100%;
+                float: left;
+                margin-left: 8px;
+                } 
+        .img3{
+                height: 170px;
+                width: 120px;
+                position: absolute;
+                left:240px;
+                top:180px;
+                background: url(../images/img3.jpg);
+                background-size: 100%;
+                float: left;
+                margin-left: 8px;
+                }
+        .img4{
+                height: 170px;
+                width: 120px;
+                position: absolute;
+                left:365px;
+                top:180px;
+                background: url(../images/img4.jpg);
+                background-size: 100%;
+                float: left;
+                margin-left: 8px;
+                }
+        .img5{
+                 height: 170px;
+                width: 120px;
+                position: absolute;
+                left:490px;
+                top:180px;
+                background: url(../images/img5.jpg);
+                background-size: 100%;
+                float: left;
+                margin-left: 8px;}
+
+
+        .inform-blank{
+            width:1300px;
+            position: relative;
+            top:370px;
+                } 
+
+/* ******************** 蔡起銮结束*************************** */
+
+/* ******************** 俞洪伟开始*************************** */
+.bottom{
+    width: 100%;
+    height: 200px;
+    /* background:linear-gradient(to left,rgb(4,113,52),rgb(16,125,53),rgb(31,139,55),rgb(40,148,56),rgb(51,159,58),rgb(57,163,59),rgb(57,163,59),rgb(51,159,58),rgb(40,148,56),rgb(31,139,55),rgb(16,125,53),rgb(4,113,52)); */
+    background: rgb(0,109,52);
+    overflow: hidden;}
+
+.bottom_box0{
+    overflow: hidden;
+    width:1300px;
+    height:200px;
+    background:rgb(0,109,52);
+    margin:0 auto;
+    position: relative;}
+    
+
+ .bottom_box0 .bottom_box1{
+    height: 200px;
+    background: rgb(0,109,52);
+    position: absolute;
+    float:left;
+    top:0px;} 
+    .bottom_box0 .bottom_box1 .sologon{
+        position: relative;
+        top:30px; }
+
+/* 文字效果 */
+.bottom_box0 .bottom_box1 .bottom_box1_word{
+    overflow: hidden;
+    position: absolute;
+    width: 300px;
+    top:100px;
+    left:0px;
+    color: white;}
+
+            .bumendanwei {
+                width:100px;
+                height:30px;
+                font-size:15px;
+                color: white;
+                float: left;
+                padding-left:8px;
+                list-style-type: none; 
+                position: relative;                    }
+
+            .xueyuanlianjie {
+                width:100px;
+                height:30px;
+                float: left;
+                font-size:15px;
+                color: white;
+                position: relative; 
+                top:0px;
+                left:10px;
+
+                list-style-type: none;}
+            .yanjiujigou {
+                width:100px;
+                height:30px;
+                font-size:15px;
+                color: white;
+                float: left;
+                position: relative; 
+                top:0px;
+                left:20px;
+
+                list-style-type: none;}
+
+        .shangla1:hover{
+            width:92px;
+            height:200px;
+            background: rgb(165, 75, 75);
+            overflow: hidden;
+            transition: all 0.5s;
+            opacity: 0.85;
+            z-index: 99;
+        }
+
+
+        /* .xiala { 
+            position: absolute;
+            width: 1300px;
+            height: 0px;
+            background: white;
+            left: -50px;
+            top: 82px;
+            overflow: hidden;
+            transition: all 0.5s;
+            opacity: 0.85;
+            z-index: 99;
+            隐藏 */    
+        
+                
+
+
+
+
+/* ******************* */
+
+.bottom_box0 .picture1{
+    position: absolute;
+    float:left;
+    top:50px;
+    left: 300px;
+    color: white;
+    font-family: '宋体';
+    font-weight: 600;
+    font-size: 17px;
+}
+.bottom_box0  .picture2{
+    position: absolute;
+    float:left;
+    top:50px;
+    left: 500px;
+    color: white;
+    font-family: '宋体';
+    font-weight: 600;
+    font-size: 17px;
+}
+.bottom_box0  .picture3{
+    position: absolute;
+    float:left;
+    top:50px;
+    left: 600px;
+    color: white;
+    font-family: '宋体';
+    font-weight: 600;
+    font-size: 17px;
+}
+.bottom_box0  .picture4{
+    position: absolute;
+    float:left;
+    top:50px;
+    left: 700px;
+    color: white;
+    font-family: '宋体';
+    font-weight: 600;
+    font-size: 17px;
+}
+
+     
+/*微信图片开始 */
+
+
+    .picture1{
+        float:left;
+        top:100px;
+        left: 200px;
+        padding-left: 100px;
+        color: white;
+        font-family: '宋体';
+        font-weight: 600;
+        font-size: 17px;
+    }
+    /* 文字导航栏开始 */
+
+.bottom_box0 #box .daohanglan1 .aaa{
+    position: absolute;
+    top:40px;
+    left: 900px;
+    float: left;
+    font-size:17px;
+    color:white;
+    list-style-type: none;
+    text-decoration:none;
+}
+.bottom_box0 #box .daohanglan1 .bbb{
+    position: absolute;
+    top:70px;
+    left: 900px;
+    float: left;
+    font-size:17px;
+    color:white;
+    list-style-type: none;
+    text-decoration:none;
+}
+.bottom_box0 #box .daohanglan1 .mmm{
+    position: absolute;
+    top:100px;
+    left: 900px;
+    float: left;
+    font-size:17px;
+    color:white;
+    list-style-type: none;
+    text-decoration:none;
+}
+.bottom_box0 #box .daohanglan1 .ddd{
+    position: absolute;
+    top:130px;
+    left: 900px;
+    float: left;
+    font-size:17px;
+    color:white;
+    list-style-type: none;
+    text-decoration:none;
+}
+
+.bottom_box0 #box  .daohanglan2 .eee{
+    position: absolute;
+    top:40px;
+    left: 1050px;
+    float: left;
+    color:white;
+    font-size:17px;
+    list-style-type: none;
+
+}
+.bottom_box0 #box  .daohanglan2 .fff{
+    position: absolute;
+    top:70px;
+    left: 1050px;
+    float: left;
+    color:white;
+    font-size:17px;
+    list-style-type: none;
+
+}
+.bottom_box0 #box  .daohanglan2 .ggg{
+    position: absolute;
+    top:100px;
+    left: 1050px;
+    float: left;
+    color:white;
+    font-size:17px;
+    list-style-type: none;
+
+}
+.bottom_box0 #box  .daohanglan2 .hhh{
+    position: absolute;
+    top:130px;
+    left: 1050px;
+    float: left;
+    color:white;
+    font-size:17px;
+    list-style-type: none;
+
+}
+.bottom_box0 #box  .daohanglan3 .iii{
+    position: absolute;
+    top:40px;
+    left: 1200px;
+    float: left;
+    font-size:17px;
+    color:white;
+    list-style-type: none;   
+}
+.bottom_box0 #box  .daohanglan3 .jjj{
+    position: absolute;
+    top:70px;
+    left: 1200px;
+    float: left;
+    font-size:17px;
+    color:white;
+    list-style-type: none;   
+}
+.bottom_box0 #box  .daohanglan3 .kkk{
+    position: absolute;
+    top:100px;
+    left: 1200px;
+    float: left;
+    font-size:17px;
+    color:white;
+    list-style-type: none;   
+}
+.bottom_box0 #box  .daohanglan3 .lll{
+    position: absolute;
+    top:130px;
+    left: 1200px;
+    float: left;
+    font-size:17px;
+    color:white;
+    list-style-type: none;   
+}
+
+/* 悬浮 */
+.aaa a:hover{color:white}
+.bbb a:hover{color:white} 
+.ddd a:hover{color:white}
+.eee a:hover{color:white}
+.fff a:hover{color:white}
+.ggg a:hover{color:white}
+.hhh a:hover{color:white}
+.iii a:hover{color:white}
+.jjj a:hover{color:white}
+.kkk a:hover{color:white}
+.lll a:hover{color:white}
+.mmm a:hover{color:white}
+/* 悬浮结束
+
+/* 底部链接结束 */
+
+
+
+
+
+
+
+
+
+
+
+/* ******************** 俞洪伟结束*************************** */
